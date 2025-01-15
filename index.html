@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Event Management System</h1>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Upcoming Events</h2>
+        <div class="events-list">
+            <div class="event-card">
+                <h3>Tech Fest 2025</h3>
+                <p>Date: 15th January 2025</p>
+                <p>Venue: Auditorium</p>
+                <p>Experience cutting-edge technology with keynote speakers and workshops.</p>
+                <button onclick="registerEvent1()">Register</button>
+            </div>
+            <div class="event-card">
+                <h3>Cultural Night</h3>
+                <p>Date: 20th January 2025</p>
+                <p>Venue: Open Ground</p>
+                <p>Celebrate diversity with music, dance, and cultural performances.</p>
+                <button onclick="registerEvent()">Register</button>
+            </div>
+            <div class="event-card">
+                <h3>Startup Pitch</h3>
+                <p>Date: 25th January 2025</p>
+                <p>Venue: Innovation Hub</p>
+                <p>Showcase your startup ideas to investors and industry leaders.</p>
+                <button onclick="registerEvent()">Register</button>
+            </div>
+            <div class="event-card">
+                <h3>Health & Wellness Workshop</h3>
+                <p>Date: 28th January 2025</p>
+                <p>Venue: Community Hall</p>
+                <p>Learn from experts about mindfulness, fitness, and healthy living.</p>
+                <button onclick="registerEvent()">Register</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Event Management System | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+    <script>
+        function registerEvent() {
+            alert('Registration is not open yet. Please check back later!');
+        }
+        function registerEvent1() {
+            alert('Registeration link is now close!!.');
+        }
+    </script>
+</body>
+</html>
